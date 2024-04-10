@@ -1,0 +1,6 @@
+const bcrypt=require('bcrypt')
+let encyptedpass=bcrypt.hashSync('roh123',10)
+//let check=bcrypt.compareSync('roh123',encyptedpass)
+let check=bcrypt.compareSync('Roh123',encyptedpass)
+//console.log(encyptedpass)
+console.log(check)
