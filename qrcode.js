@@ -1,7 +1,7 @@
 const fs=require('fs')
 const QRCode=require('qrcode')
 
-const textToEncode='Hello World';
+const textToEncode='Hello ';
 
 QRCode.toFile('qrcode.png',textToEncode,(err)=>{
     if(err){
